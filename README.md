@@ -15,5 +15,7 @@ Technologies Used:
 - Retrofit (for API calls)
 
 Screenshots:
+
 ![vrid blog1](https://github.com/user-attachments/assets/b4477360-59ac-42c8-97ca-3af35c939eb6)
+/t
 ![vrid blog2](https://github.com/user-attachments/assets/22b24c1e-3467-44f9-8b5d-437efe87057a)
