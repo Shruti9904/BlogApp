@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.blogapp.ui.theme.BlogAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,7 +39,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BlogApp(){
-    val viewModel = BlogViewModel()
+    val viewModel = viewModel<BlogViewModel>()
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = Screen.BlogListScreen.route){
         composable(route= Screen.BlogListScreen.route) {
